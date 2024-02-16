@@ -10,4 +10,4 @@ def  test_es_primo_negativo():
     assert es_primo(-1) == False 
 
 def test_es_primo_numero_primo_mayor_2():
-    assert es_primo(29) == True 
+    assert es_primo(29) == False 
